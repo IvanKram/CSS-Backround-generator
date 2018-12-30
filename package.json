@@ -1,0 +1,23 @@
+{
+  "name": "css-backround-generator",
+  "version": "1.0.0",
+  "description": "A website that helps you create a background for your website and provides you with an rgb value for it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "css-background-generator"
+  },
+  "keywords": [
+    "background",
+    "css",
+    "generator",
+    "gradient",
+    "color",
+    "web"
+  ],
+  "author": "Ivan Kram",
+  "license": "GPL-3.0-or-later"
+}
