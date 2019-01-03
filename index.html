@@ -14,8 +14,12 @@
     <div>
         <h1>Background Generator</h1>
         <h2>Current CSS background:</h2>
-        <input type="color" name="color 1" value="#00ff00" id="color 1">
-        <input type="color" name="color 2" value="#ff0000" id="color 2">
+        <div id="colorBox">
+            <input type="color" name="color 1" value="#00ff00" id="color 1">
+            <label for="color 1"></label>
+            <input type="color" name="color 2" value="#ff0000" id="color 2">
+            <label for="color 2"></label>
+        </div>
         <h3></h3>
         <button id="randomButton">Random</button>
     </div>
@@ -28,9 +32,15 @@
         <div id="selectorsBox">
             <h4>Gradient direction: </h4>
             <select id="directionSel">
-                    <option value="linear-gradient(to right,">left to right</option>
-                    <option value="linear-gradient(">top to bottom</option>
-                </select>
+                <label for="directionSel"></label>
+                <option value="linear-gradient(to right,">left to right</option>
+                <option value="linear-gradient(">top to bottom</option>
+            </select>
+            <select id="colorSel">
+                <label for="colorSel">Color Selector</label>
+                <option value="2">2 colors</option>
+                <option value="3">3 colors</option>
+            </select>
         </div>
     </div>
     <script src="index.js"></script>
