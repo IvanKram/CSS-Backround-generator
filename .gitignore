@@ -35,4 +35,9 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+<<<<<<< Updated upstream
 Thumbs.db
+=======
+Thumbs.db
+.idea/workspace.xml
+>>>>>>> Stashed changes
