@@ -19,5 +19,8 @@
     "web"
   ],
   "author": "Ivan Kram",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
 }

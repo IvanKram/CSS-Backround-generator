@@ -28,13 +28,15 @@ function add3color() {
 		input3.setAttribute("name", "color3");
 		input3.setAttribute("id", "color 3");
 		input3.setAttribute("value", "#0000ff");
+		//input3.setAttribute("class", "animated fadeInRight delay-0.2s");
 		colorBox.appendChild(input3);
 		color3 = document.getElementById("color 3");
 		setGradient();
-		colorSwCounter++;
+		colorSwCounter = 1;
 
 	} else {
 		colorBox.removeChild(color3);
+		colorSwCounter--;
 	}
 }
 //Getting a gradient created from the two inputs.
