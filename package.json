@@ -22,5 +22,8 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "animate.css": "^3.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
   }
 }
