@@ -1,0 +1,73 @@
+body {
+	font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+#customizer {
+    /* making the div span the whole side.*/
+    grid-column: 3 / 4;
+    grid-row:1 / -1;
+    /* flex stuff*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* visual stuff*/
+    background-color: rgba(254, 252, 255, 0.5);
+    /*overflow: hidden;*/
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    letter-spacing: normal ;
+
+}
+
+#topBar {
+    background-color: rgba(0,0,0,0.5) ;
+    height: 12%;
+    width: 100%;
+    grid-column: 1/ span 3;
+
+
+}
+
+#selectorsBox {
+    grid-column: 1/ span 3 ;
+    grid-row: 2/3;
+
+
+}
+
